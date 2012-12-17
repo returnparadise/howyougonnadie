@@ -266,7 +266,17 @@ $app_name = idx($app_info, 'name', '');
     <?php
       if ($user_id) {
     ?>
-
+	<section id="music" class="">
+		<header>
+			<hgroup>
+				<h3>Never Alone</h3>
+				<h4>Craving</h4>
+			</hgroup>
+		</header>
+		<article>
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.adobe.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" name="53023541_1943617" width="100%" height="80" id="53023541_1943617"><param name="movie" value="http://www50.zippyshare.com/swf/player_local.swf?file=53023541&server=50&baseurl=http://www.zippyshare.com/api/&flashid=null&autostart=false&availablequality=both&bordercolor=#CCCCCC&forecolor=#000000&backcolor=#F2F2F2&darkcolor=#000000&lightcolor=#FF6600" /><param name="quality" value="high" /><param name="scriptAccess" value="always" /><embed src="http://www50.zippyshare.com/swf/player_local.swf?file=53023541&server=50&baseurl=http://www.zippyshare.com/api/&flashid=null&autostart=false&availablequality=both&bordercolor=#CCCCCC&forecolor=#000000&backcolor=#F2F2F2&darkcolor=#000000&lightcolor=#FF6600" width="100%" height="80" quality="high" pluginspage="http://www.adobe.com/go/getflashplayer" type="application/x-shockwave-flash" scriptaccess="always" name="53023541_1943617"></embed></object>
+		</article>
+	</section>
     <section id="samples" class="clearfix">
       <h1>Examples of the Facebook Graph API</h1>
 
