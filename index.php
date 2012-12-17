@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /**
  * This sample app is provided to kickstart your experience using Facebook's
@@ -249,8 +249,8 @@ $app_name = idx($app_info, 'name', '');
     </header>
 
     <section id="get-started">
-      <p>Welcome to your Facebook app, running on <span>heroku</span>!</p>
-      <a href="https://devcenter.heroku.com/articles/facebook" target="_top" class="button">Learn How to Edit This App</a>
+      <p>Bạn sẽ chết như thế nào vào ngày tận thế 21/12/2012 ?</p>
+      <a href="http://returnparadise.tumblr.com" target="_top" class="button">Xem đêê</a>
     </section>
 
     <?php
