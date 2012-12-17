@@ -206,6 +206,16 @@ $app_name = idx($app_info, 'name', '');
         js.src = "//connect.facebook.net/en_US/all.js";
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
+	  
+	  // Custom
+	  (function($){
+		$(function(){
+			$('.showResult').click(function(){
+				alert('ngu thi chet');
+				return false;
+			});
+		});
+	  })(jQuery);
     </script>
 
     <header class="clearfix">
@@ -250,7 +260,7 @@ $app_name = idx($app_info, 'name', '');
 
     <section id="get-started">
       <p>Bạn sẽ chết như thế nào vào ngày tận thế 21/12/2012 ?</p>
-      <a href="http://returnparadise.tumblr.com" target="_top" class="button">Xem đêê</a>
+      <a href="http://returnparadise.tumblr.com" target="_top" class="button showResult">Xem đêê</a>
     </section>
 
     <?php
@@ -353,7 +363,7 @@ $app_name = idx($app_info, 'name', '');
       }
     ?>
 
-    <section id="guides" class="clearfix">
+    <section id="guides" class="clearfix" style="display:none;">
       <h1>Learn More About Heroku &amp; Facebook Apps</h1>
       <ul>
         <li>
